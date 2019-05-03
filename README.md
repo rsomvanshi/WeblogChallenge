@@ -1,3 +1,22 @@
+## Environment
+- Apache Spark 2.3.3
+- Scala 2.11.12
+- sbt 1.8
+
+## Build
+* In the repository: `sbt package`
+
+## Test
+* In the repository: `sbt test`
+
+## Run
+* In the repository: `<path-to>/spark-submit --class WebLogChallengeApp --master "<master>" target/scala-2.11/solution_2.11-1.0.jar data/2015_07_22_mktplace_shop_web_log_sample.log.gz`
+
+## Output
+* In the repository: `cd output`
+---
+---
+---
 # WeblogChallenge
 This is an interview challenge for Paytm Labs. Please feel free to fork. Pull Requests will be ignored.
 
